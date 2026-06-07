@@ -12,9 +12,11 @@ public class Task1068 {
             System.exit(0);
         }
 
-        if (n >= 1) System.out.print(n *(n + 1) / 2);
-        if (n < 1) System.out.print(-((-n) *(1 -n) / 2) + 1);
-
+        if (n >= 1) { 
+            System.out.print(n *(n + 1) / 2);
+        } else if (n < 1) {
+            System.out.print(-((-n) *(1 -n) / 2) + 1);
+        }
         in.close();
     }
 }
