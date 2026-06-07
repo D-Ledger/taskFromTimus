@@ -6,7 +6,6 @@ public class Task1786 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        if (!in.hasNextLine()) return;
         String text = in.nextLine().trim();
 
         String target = "Sandro";
